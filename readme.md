@@ -16,3 +16,6 @@ if ( enka > 25 ) or ( magattck > 500 and fizattck > 500 ) or (lovka > 90) then
 
 ### Profit!!!
 Have a nice game
+
+### *
+Works on Windows. The emulator program must be run on behalf of the administrator. The tabulation was deliberately reset in the code to exclude the possibility of simple modification and resale.
