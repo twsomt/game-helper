@@ -1,21 +1,25 @@
-# Game Helper
+# GameHelper
 
-### Description
+### Описание
 
-By analyzing the color of pixels on the screen, the script determines how valuable a thing you got.
+Анализируя цвета пикселей на экране, определяет, насколько ценна вещь вам досталась.
 
-### Using script
+### Использование скрипта
 
-Place your items in the inventory, set the necessary characteristics in the settings (uncomment the option that suits you or add your own using numbers and variable names (see examples)),
-or
-see the `--SETTINGS` comment in the code
+Поместите свою вещь в инвентарь, раскомментируйте необходимые характеристики в настройках, укажите требуемое количество вещей к продуждению, положите вещт в РЯД
+настройки в коде обозначены `--SETTINGS`.
+Приведен ряд готовых настроек, вы можете просто раскомментировать нужную строчку или установить новые характеристики самостоятельно.
 
+Например:
 ```
 if ( enka > 25 ) or ( magattck > 500 and fizattck > 500 ) or (lovka > 90) then
 ``` 
+При удачном пробуждении программа подаст звуковой сигнал и переключится на следующую вещь (если их несколько). Если же попытка будет неудачной, процесс будет продолжаться до тех пор пока у вас не кончатся камни / свитки.
+Примеры работы вы можете видеть на приложенных изображениях.
 
-### Profit!!!
-Have a nice game
+### Профит!
+Удачной игры
 
 ### *
-Works on Windows. The emulator program must be run on behalf of the administrator. The tabulation was deliberately reset in the code to exclude the possibility of simple modification and resale.
+Работает на windows. Рекомендуется запускать клиент игры в оконном режиме 1024*768.
+Отступы в коде были сброшены для затруднения копирования и модификации.
